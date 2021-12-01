@@ -5,5 +5,8 @@ const data1 = utils.parseData(`${__dirname}/data1`, (rawData) => {
     return rawData.split('\n');
 });
 
+// Part 1
+console.log(`Part 1: ${data1[0]}`)
 
-console.log(`data1: ${data1}`)
+// Part 2
+console.log(`Part 2: ${data1[1]}`)
